@@ -1,0 +1,441 @@
+{
+	"info": {
+		"_postman_id": "8598015e-a625-41dc-b89c-afb3426f5b79",
+		"name": "webathon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "localhost:5000/api/users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDIyNSwiZXhwIjoxNjQ0OTUwMjI1fQ.xqpHDVR43G8ztjd_4LD2cyHTJmM0GG1CBAJbhyC5zkk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/users",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/mynominate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDMwNCwiZXhwIjoxNjQ0OTUwMzA0fQ.kwahMA4HV0hVaqU8AgHUeiErhzBpgBApr7sizrKecfg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/users/mynominate",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"mynominate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/nominate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDMwNCwiZXhwIjoxNjQ0OTUwMzA0fQ.kwahMA4HV0hVaqU8AgHUeiErhzBpgBApr7sizrKecfg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"seller\": \"seller\",\r\n    \"account\": \"account\",\r\n    \"name\": \"name\",\r\n    \"description\": \"description\",\r\n    \"image\": \"image\",\r\n    \"minBid\": \"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/users/nominate",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"nominate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"shubham96@gmail.com\",\r\n    \"password\": \"DoNotShare104\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/users/login",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/myproducts",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDMwNCwiZXhwIjoxNjQ0OTUwMzA0fQ.kwahMA4HV0hVaqU8AgHUeiErhzBpgBApr7sizrKecfg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/users/myproducts",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"myproducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/nominate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDMwNCwiZXhwIjoxNjQ0OTUwMzA0fQ.kwahMA4HV0hVaqU8AgHUeiErhzBpgBApr7sizrKecfg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/users/nominate",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"nominate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/nominate/620679c55e705d7b2d78c685",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjIwNjVlYjdhY2FkM2Y4OTZjODAzZWU4In0sImlhdCI6MTY0NDU5MDMwNCwiZXhwIjoxNjQ0OTUwMzA0fQ.kwahMA4HV0hVaqU8AgHUeiErhzBpgBApr7sizrKecfg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/users/nominate/620679c55e705d7b2d78c685",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"nominate",
+								"620679c55e705d7b2d78c685"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/users/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"name\",\r\n    \"email\": \"shubha96@gmail.com\",\r\n    \"password\": \"DoNotShare104\",\r\n    \"account\": \"account\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/users/register",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "localhost:5000/api/admin",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token-admin",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl91c2VyIjp7ImlkIjoiNjIwNjdhZGE1ZTcwNWQ3YjJkNzhjNjg5In0sImlhdCI6MTY0NDU5MTg5NiwiZXhwIjoxNjQ0OTUxODk2fQ.-JCdNv6ow4gK93BsnrZr2FiTPn-O_pQR30RI_L8MnIc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/admin/",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"sahanirmalyo96@gmail.com\",\r\n    \"password\": \"DoNotShare104\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/admin/login",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Shubham\",\r\n    \"email\": \"sahanirmalyo96@gmail.com\",\r\n    \"password\": \"DoNotShare104\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/admin/register",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/nominate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token-admin",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl91c2VyIjp7ImlkIjoiNjIwNjdhZGE1ZTcwNWQ3YjJkNzhjNjg5In0sImlhdCI6MTY0NDU5MTg5NiwiZXhwIjoxNjQ0OTUxODk2fQ.-JCdNv6ow4gK93BsnrZr2FiTPn-O_pQR30RI_L8MnIc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/admin/nominate",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"nominate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/solditems",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-auth-token-admin",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl91c2VyIjp7ImlkIjoiNjIwNjdhZGE1ZTcwNWQ3YjJkNzhjNjg5In0sImlhdCI6MTY0NDU5MTg5NiwiZXhwIjoxNjQ0OTUxODk2fQ.-JCdNv6ow4gK93BsnrZr2FiTPn-O_pQR30RI_L8MnIc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/admin/solditems",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"solditems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/nominate/620679c55e705d7b2d78c685",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token-admin",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl91c2VyIjp7ImlkIjoiNjIwNjdhZGE1ZTcwNWQ3YjJkNzhjNjg5In0sImlhdCI6MTY0NDU5MTg5NiwiZXhwIjoxNjQ0OTUxODk2fQ.-JCdNv6ow4gK93BsnrZr2FiTPn-O_pQR30RI_L8MnIc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"startDate\": \"startDate\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:5000/api/admin/nominate/620679c55e705d7b2d78c685",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"nominate",
+								"620679c55e705d7b2d78c685"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:5000/api/admin/start/620740d2ccf20b6a4439b8b3",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-auth-token-admin",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl91c2VyIjp7ImlkIjoiNjIwNjdhZGE1ZTcwNWQ3YjJkNzhjNjg5In0sImlhdCI6MTY0NDU5MTg5NiwiZXhwIjoxNjQ0OTUxODk2fQ.-JCdNv6ow4gK93BsnrZr2FiTPn-O_pQR30RI_L8MnIc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:5000/api/admin/start/620740d2ccf20b6a4439b8b3",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"admin",
+								"start",
+								"620740d2ccf20b6a4439b8b3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
