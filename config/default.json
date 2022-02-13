@@ -1,0 +1,4 @@
+{
+    "mongoURL": "mongodb+srv://Nirmalya:Nirmalya@cluster0.zkung.mongodb.net/WebAThon",
+    "jwtSecret": "mySecretToken"
+}
