@@ -79,5 +79,5 @@ https://user-images.githubusercontent.com/81407181/154105714-0dda3c22-bf7d-4a22-
 - [@R0Y4L23](https://github.com/R0Y4L23)
         * Developed the Frontend
 - [@bhaumikankan](https://github.com/bhaumikankan)
-        * Developed the Ethereum Smart COntract and the Backned
+        * Developed the Ethereum Smart Contract and the Backned
 
