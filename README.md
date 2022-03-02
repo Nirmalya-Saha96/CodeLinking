@@ -44,6 +44,13 @@ https://ecstatic-curran-043ca0.netlify.app/
 
 https://user-images.githubusercontent.com/81407181/154105714-0dda3c22-bf7d-4a22-8a1a-c4362dcee30c.mp4
 
+# CERTIFICATE
+
+[hack-a-web.pdf](https://github.com/Nirmalya-Saha96/CodeLinking/files/8171547/hack-a-web.pdf)
+
+# YOUCAN VERIFY AT
+
+https://verification.givemycertificate.com/v/34586190-e6e8-4ad6-8a4b-10bb6f0ce082
 
 ## Demo
 
