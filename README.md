@@ -29,6 +29,20 @@ to use.
 - Admin can approve and activate the product for Auction
 - Admin can monitor the products
 
+# DOCKER FUNCTIONALITY
+- Docker Image Link: https://hub.docker.com/repository/docker/nirmalyasaha/code-linking/general
+- Update the link to your localhost server
+- Build and deploy
+    ```
+    $ docker build -t nirmalyasaha/code-linking:1.0.0.RELEASE .
+    $ docker push nirmalyasaha/code-linking:1.0.0.RELEASE
+    ```
+- Pulling and Running
+    ```
+    $ docker pull nirmalyasaha/code-linking:1.0.0.RELEASE
+    $ docker run -d -p 3000:3000 -p 5000:5000 nirmalyasaha/code-linking:1.0.0.RELEASE
+    ```
+
 ## Tech Stack
 
 **Client:** React, TailwindCSS, Socket.io Client

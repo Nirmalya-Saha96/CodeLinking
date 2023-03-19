@@ -48,7 +48,7 @@ const AdminAuth = () => {
 
         var config = {
             method: 'post',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/admin/login',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/login',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -81,7 +81,7 @@ const AdminAuth = () => {
 
         var config = {
             method: 'post',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/admin/register',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/register',
             headers: {
                 'Content-Type': 'application/json'
             },

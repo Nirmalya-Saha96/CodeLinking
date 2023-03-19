@@ -52,7 +52,7 @@ const Auth = () => {
 
         var config = {
             method: 'post',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/login',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/login',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -88,7 +88,7 @@ const Auth = () => {
 
         var config = {
             method: 'post',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/register',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/register',
             headers: {
                 'Content-Type': 'application/json'
             },

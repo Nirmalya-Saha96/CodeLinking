@@ -43,7 +43,7 @@ const MainScreen = (props) => {
 
 
     useEffect(() => {
-        socketRef.current = io('https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev');
+        socketRef.current = io('https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io');
         socketRef.current.emit('bid', id, '30');
 
         socketRef.current.on('receive-changes', (bid, user, name, sec) => {
@@ -66,7 +66,7 @@ const MainScreen = (props) => {
         const token = sessionStorage.getItem('token')
         var config = {
             method: 'get',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/nominate/' + id,
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/nominate/' + id,
             headers: {
                 'x-auth-token': token
             }
@@ -97,7 +97,7 @@ const MainScreen = (props) => {
 
         var config = {
             method: 'get',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users',
             headers: {
                 'x-auth-token': token
             }
@@ -119,7 +119,7 @@ const MainScreen = (props) => {
     const getHigestBidderDetails = (uid) => {
         var config = {
             method: 'get',
-            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/' + uid,
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/' + uid,
         };
 
         axios(config)
@@ -195,7 +195,7 @@ const MainScreen = (props) => {
 
             var config = {
                 method: 'put',
-                url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/buy/' + details._id,
+                url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/buy/' + details._id,
                 headers: {
                     'x-auth-token': token,
                     'Content-Type': 'application/json'
