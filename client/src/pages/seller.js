@@ -5,9 +5,9 @@ import { message } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-import { create } from "ipfs-http-client";
+// import { create } from "ipfs-http-client";
 
-const client = create("https://ipfs.infura.io:5001/api/v0");
+// const client = create("https://ipfs.infura.io:5001/api/v0");
 
 const Seller = () => {
 
@@ -44,8 +44,8 @@ const Seller = () => {
         let url;
 
         try {
-            const created = await client.add(file);
-            url = `https://ipfs.infura.io/ipfs/${created.path}`;
+            // const created = await client.add(file);
+            url = `https://img.freepik.com/premium-vector/man-doing-server-maintenance_173125-112.jpg`;
             setImage(url)
         } catch (error) {
             console.log(error.message);
@@ -63,7 +63,7 @@ const Seller = () => {
 
         var config = {
             method: 'post',
-            url: 'http://localhost:5000/api/users/nominate',
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/nominate',
             headers: {
                 'x-auth-token': token,
                 'Content-Type': 'application/json'

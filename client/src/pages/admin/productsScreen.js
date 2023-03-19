@@ -14,7 +14,7 @@ const ProductsScreen = () => {
         const token = sessionStorage.getItem('token')
         var config = {
             method: 'get',
-            url: 'http://localhost:5000/api/admin/nominate',
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/admin/nominate',
             headers: {
                 'x-auth-token-admin': token
             }

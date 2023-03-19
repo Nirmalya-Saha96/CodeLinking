@@ -21,7 +21,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
         });
         var config = {
             method: 'put',
-            url: 'http://localhost:5000/api/admin/nominate/' + id,
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/admin/nominate/' + id,
             headers: {
                 'x-auth-token-admin': token,
                 'Content-Type': 'application/json'
@@ -48,7 +48,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
 
         var config = {
             method: 'put',
-            url: 'http://localhost:5000/api/admin/start/' + id,
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/admin/start/' + id,
             headers: {
                 'x-auth-token-admin': token
             }
@@ -76,7 +76,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
 
         var config = {
             method: 'get',
-            url: 'http://localhost:5000/api/users/' + dataOfProduct.userBought,
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/' + dataOfProduct.userBought,
         };
 
         axios(config)

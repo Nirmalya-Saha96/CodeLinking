@@ -10,7 +10,7 @@ if( typeof window !== "undefined" && typeof window.web3 !== "undefined"){
 else{
   //user not using metamask
   const provider=new Web3.providers.HttpProvider(
-      'https://rinkeby.infura.io/v3/c418d4eba8b84ff092648af21a3e7e6f',
+      'https://sepolia.infura.io/v3/f1d01d7f78944663887a954faa97cbec',
   )
   web3=new Web3(provider);
 }

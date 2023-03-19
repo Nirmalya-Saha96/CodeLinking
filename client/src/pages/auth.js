@@ -52,7 +52,7 @@ const Auth = () => {
 
         var config = {
             method: 'post',
-            url: 'http://localhost:5000/api/users/login',
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/login',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -88,7 +88,7 @@ const Auth = () => {
 
         var config = {
             method: 'post',
-            url: 'http://localhost:5000/api/users/register',
+            url: 'https://nirmalya-saha96-humble-eureka-6p7q47vx4xjf5vpp-5000.preview.app.github.dev/api/users/register',
             headers: {
                 'Content-Type': 'application/json'
             },
