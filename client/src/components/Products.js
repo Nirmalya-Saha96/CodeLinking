@@ -21,7 +21,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
         });
         var config = {
             method: 'put',
-            url: 'http://localhost:5000/api/admin/nominate/' + id,
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/nominate/' + id,
             headers: {
                 'x-auth-token-admin': token,
                 'Content-Type': 'application/json'
@@ -48,7 +48,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
 
         var config = {
             method: 'put',
-            url: 'http://localhost:5000/api/admin/start/' + id,
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/start/' + id,
             headers: {
                 'x-auth-token-admin': token
             }
@@ -76,7 +76,7 @@ const Products = ({ name, price, description, isApproved, isSold, id, image, isA
 
         var config = {
             method: 'get',
-            url: 'http://localhost:5000/api/users/' + dataOfProduct.userBought,
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/' + dataOfProduct.userBought,
         };
 
         axios(config)

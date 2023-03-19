@@ -48,7 +48,7 @@ const AdminAuth = () => {
 
         var config = {
             method: 'post',
-            url: 'http://localhost:5000/api/admin/login',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/login',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -81,7 +81,7 @@ const AdminAuth = () => {
 
         var config = {
             method: 'post',
-            url: 'http://localhost:5000/api/admin/register',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/admin/register',
             headers: {
                 'Content-Type': 'application/json'
             },

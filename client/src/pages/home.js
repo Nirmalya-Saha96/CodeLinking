@@ -33,7 +33,7 @@ const Home = () => {
 
         var config = {
             method: 'get',
-            url: 'http://localhost:5000/api/users',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users',
             headers: {
                 'x-auth-token': token
             }

@@ -15,7 +15,7 @@ const Nominated = () => {
         const token = sessionStorage.getItem('token')
         var config = {
             method: 'get',
-            url: 'http://localhost:5000/api/users/mynominate',
+            url: 'https://5000-nirmalyasah-codelinking-epx2982vp7j.ws-us90.gitpod.io/api/users/mynominate',
             headers: {
                 'x-auth-token': token
             }
